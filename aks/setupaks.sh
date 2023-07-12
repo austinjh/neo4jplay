@@ -13,5 +13,5 @@ az configure --defaults location=$LOCATION
 
 az aks create --name $AKSCLUSTER_NAME --node-count=1
 
-az aks get-credentials --name my-neo4j-aks-cluster --admin
+az aks get-credentials --name $AKSCLUSTER_NAME --admin
 
